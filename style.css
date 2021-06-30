@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+body{
+	font-family: 'Quicksand', sans-serif!important;
+	overflow-x:hidden;
+}
+
+.first{
+
+	background-image: url('rescale-first.jpg');
+	
+	height:100vh;
+	
+	background-size: cover;
+}
+.second{
+
+	background-image: url('bg-3.jpg');	
+	
+	background-size: cover;
+}
+.nav-link{
+	color:black!important;
+}
+
+.first-text{
+	text-shadow:  3px 5px 5px #000000;
+	font-size: 70px;
+	text-align: left;
+	color: white;
+}
+
+
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 2px solid #fff;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+
+.carousel-image{
+	width:100%;
+	height:400px;
+}
+
+.button_gen{
+	width:210px;
+	background: white;
+	text-transform: uppercase;
+	border:2px solid white;
+	font-weight: bold;
+	outline: none;
+	height: 50px;
+	font-size:18px;
+	border-radius: 5px;
+}
+
+.button_gen:focus{
+	outline:none;
+}
+
+.button_gen:hover{
+	background:black;
+	border:2px solid white;
+	color:white;
+	transition-duration: 0.6s;
+}
+.button_gen_{
+	width:210px;
+	background: black;
+	text-transform: uppercase;
+	border:2px solid black;
+	font-weight: bold;
+	outline: none;
+	height: 50px;
+	font-size:18px;
+	border-radius: 5px;
+	color:white;
+}
+
+.button_gen_:focus{
+	outline:none;
+}
+
+.button_gen_:hover{
+	background:none;	
+	color:black;
+	transition-duration: 0.6s;
+}
+
+.b_grey{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,37,215,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.card_new{
+	border:none!important;
+	color:#000;
+	background:#fff;
+	box-shadow: 0 1px 6px rgb(165 167 175 / 28%);
+}
+.p_img{
+
+	width: 100%;
+	height: 300px;
+}
+
+.img_att{
+	
+	background-color: #e8db3f;	
+	text-transform: uppercase;
+}
+
+
+.slideshow-container {
+  position: relative;
+  background: #fff;
+}
+
+
+.mySlides {
+  display: none;
+  padding:20px;
+  text-align: center;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;font-size: 25px;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none!important;
+}
+
+.enquire{
+	background-color: #f3f3f3;
+	background-image: url('bg-4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.btn_enquire{
+	width:210px;
+	background: orange;
+	text-transform: uppercase;
+	border:2px solid orange;
+	font-weight: bold;
+	outline: none;
+	height: 50px;
+	font-size:18px;
+	border-radius: 5px;
+	color:white;
+}
+
+.btn_enquire:focus{
+	outline:none;
+}
+
+.btn_enquire:hover{
+	background:none;	
+	color:white;
+	transition-duration: 0.6s;
+}
+.h-sil-gf{
+	font-family: 'Hind Siliguri', sans-serif;
+}
+
+.footer_enquire_btn{
+	width:150px;
+	background: orange;
+	text-transform: uppercase;
+	border:2px solid orange;
+	font-weight: bold;
+	outline: none;	
+	font-size:18px;	
+	color:white;
+	border-radius: 5px;
+}
+
+.footer_enquire_btn:focus{
+	outline:none;
+}
+
+.footer_enquire_btn:hover{
+	background:none;	
+	color:white;
+	transition-duration: 0.6s;
+}
+
+a {
+	color:white!important;
+}
+
+
+.content-box{
+
+	position: absolute;
+	top:50%;
+	left:50%;
+	align-content: center;
+	transform: translate(-50%, -50%);
+
+}
+
+.contact{
+
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(215,192,37,1) 0%, rgba(250,255,0,1) 100%);
+}
+.card_bg{
+
+	background:#f5ec9fb5!important;
+}
+
+.c_form_input{
+	background-color: #ffffff00!important;
+	color: black!important;
+    border: none!important;
+    border-bottom: 2px solid white!important;    
+}
+
+.c_form_input:focus{	
+	box-shadow: none!important;
+}
+
+
+
+@media only screen and (min-width: 100px) {
+
+
+  .first-text{  	
+    font-size: 35px;
+    font-weight: bolder;
+    text-shadow: 0px 1px 3px #000000;
+  }
+}
+
+@media only screen and (min-width: 350px) {
+
+
+  .first-text{  	
+    font-size: 40px;
+    font-weight: bolder;
+
+    text-shadow: 0px 1px 3px #000000;
+  }
+}
+
+
+@media only screen and (min-width: 600px)  {
+  .first-text {  	   
+  	font-size:80px;
+  	margin-top:10px;
+  }
+}
+
+
+
+
