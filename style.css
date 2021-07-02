@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 body{
-	font-family: 'Quicksand', sans-serif!important;
+	font-family: 'Nunito', sans-serif!important;
 	overflow-x:hidden;
+	margin:0;
+	border:0;
 }
 
 .first{
@@ -30,6 +34,11 @@ body{
 	color: white;
 }
 
+.btn_submit{
+	background-color:#3b3d15!important;
+	border: 1px solid #3b3d15!important;
+	color: white!important;
+}
 
 
 .separator {
@@ -273,7 +282,18 @@ a {
 
 }
 
+
+#navbar {
+	transition: 0.4s!important;		
+}
+
+#logo {
+	transition: 0.4s;	
+
+	
+}
 .contact{
+
 
 	background: rgb(2,0,36);
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(215,192,37,1) 0%, rgba(250,255,0,1) 100%);
@@ -294,6 +314,19 @@ a {
 	box-shadow: none!important;
 }
 
+.bggrid{
+	min-height:30px; 
+	background-size: cover;
+	background-image: url('gridbg.png')
+
+}
+
+#about{
+	background-image:url('contactbg.jpg');
+	background-size: cover;
+	color: white;
+	background-repeat: no-repeat;
+}
 
 
 @media only screen and (min-width: 100px) {
@@ -304,7 +337,12 @@ a {
     font-weight: bolder;
     text-shadow: 0px 1px 3px #000000;
   }
+   .fixed-top{
+  	position: relative!important;
+  }
 }
+
+
 
 @media only screen and (min-width: 350px) {
 
@@ -315,13 +353,19 @@ a {
 
     text-shadow: 0px 1px 3px #000000;
   }
+  .fixed-top{
+  		position: relative!important;
+  }
 }
 
 
 @media only screen and (min-width: 600px)  {
   .first-text {  	   
-  	font-size:80px;
+  	font-size:60px;
   	margin-top:10px;
+  }
+  .fixed-top{
+  		position: fixed!important;
   }
 }
 
